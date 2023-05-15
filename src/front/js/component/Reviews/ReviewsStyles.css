@@ -1,0 +1,39 @@
+/* Opiniones | Reviews - Styles */
+
+.custom-reviews {
+    background: url("https://cdn.pixabay.com/photo/2014/04/04/14/55/dog-313357_960_720.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    /* min-height: 50vh; */
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+
+.stars-reviews {
+    color: #fff71a;
+}
+
+@media screen and (max-width: 980px) {
+    /* .carousel-item img {
+        width: 80%;
+    } */
+    
+    .custom-reviews h4 {
+        font-size: 2em;
+    }
+    .custom-reviews {
+        font-size: 0.5rem;
+    }
+
+    /* .carousel-item {
+        margin-top: 4rem;
+    }
+
+    .carousel-caption h4, p {
+        font-size: 0.8rem;
+    } */
+}
